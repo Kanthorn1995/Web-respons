@@ -1,6 +1,5 @@
 // import logo from "./logo.svg";
 import React from "react";
-
 import "./App.less";
 import { Layout } from "antd";
 import ConntentApp from "./components/routes";
@@ -12,7 +11,7 @@ function App() {
     <Layout style={{ minHeight: "100vh" }}>
       <Layout className="layout">
         <Headerbar></Headerbar>
-        <Content style={{ padding: "0 50px", backgroundColor: "yellow" }}>
+        <Content style={{ padding: "0 50px", backgroundColor: "white" }}>
           {/* <h1 className="site-layout-content">Content</h1> */}
           <div
             className="site-layout-background"
@@ -26,6 +25,7 @@ function App() {
         </Footer>
       </Layout>
     </Layout>
+    
   );
 }
 
